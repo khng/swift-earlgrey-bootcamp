@@ -21,16 +21,6 @@
 		AEE5606B1EC23C1700C66C3E /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE5606A1EC23C1700C66C3E /* Step4ViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AE37068A1EC0B8D200503AF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE37066D1EC0B8D100503AF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE3706741EC0B8D100503AF0;
-			remoteInfo = "swift-earlgrey-bootcamp";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		AE0A94241F69D5300015DEC0 /* Step1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
 		AE28504E1EC0C29D00880C99 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -41,7 +31,6 @@
 		AE37067F1EC0B8D200503AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3706821EC0B8D200503AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3706841EC0B8D200503AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-earlgrey-bootcampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE94E21B1EC0E29900EC3C73 /* Step2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2TableViewCell.swift; sourceTree = "<group>"; };
 		AE94E21D1EC0E4D800EC3C73 /* Step2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2TableViewController.swift; sourceTree = "<group>"; };
 		AE94E21F1EC0FF0F00EC3C73 /* Step3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
@@ -51,13 +40,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AE3706721EC0B8D100503AF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE3706861EC0B8D200503AF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				AE3706751EC0B8D100503AF0 /* swift-earlgrey-bootcamp.app */,
-				AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,24 +113,6 @@
 			productReference = AE3706751EC0B8D100503AF0 /* swift-earlgrey-bootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE3706881EC0B8D200503AF0 /* swift-earlgrey-bootcampTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE3706951EC0B8D200503AF0 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTests" */;
-			buildPhases = (
-				AE3706851EC0B8D200503AF0 /* Sources */,
-				AE3706861EC0B8D200503AF0 /* Frameworks */,
-				AE3706871EC0B8D200503AF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE37068B1EC0B8D200503AF0 /* PBXTargetDependency */,
-			);
-			name = "swift-earlgrey-bootcampTests";
-			productName = "swift-earlgrey-bootcampTests";
-			productReference = AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,11 +125,6 @@
 					AE3706741EC0B8D100503AF0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-					};
-					AE3706881EC0B8D200503AF0 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AE3706741EC0B8D100503AF0;
 					};
 				};
 			};
@@ -184,7 +142,6 @@
 			projectRoot = "";
 			targets = (
 				AE3706741EC0B8D100503AF0 /* swift-earlgrey-bootcamp */,
-				AE3706881EC0B8D200503AF0 /* swift-earlgrey-bootcampTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,13 +154,6 @@
 				AE3706831EC0B8D200503AF0 /* LaunchScreen.storyboard in Resources */,
 				AE3706801EC0B8D200503AF0 /* Assets.xcassets in Resources */,
 				AE37067E1EC0B8D200503AF0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE3706871EC0B8D200503AF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,22 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE3706851EC0B8D200503AF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AE37068B1EC0B8D200503AF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE3706741EC0B8D100503AF0 /* swift-earlgrey-bootcamp */;
-			targetProxy = AE37068A1EC0B8D200503AF0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AE37067C1EC0B8D200503AF0 /* Main.storyboard */ = {
@@ -380,34 +315,6 @@
 			};
 			name = Release;
 		};
-		AE3706961EC0B8D200503AF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "swift-earlgrey-bootcampTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swift-earlgrey-bootcampTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-earlgrey-bootcamp.app/swift-earlgrey-bootcamp";
-			};
-			name = Debug;
-		};
-		AE3706971EC0B8D200503AF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "swift-earlgrey-bootcampTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swift-earlgrey-bootcampTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-earlgrey-bootcamp.app/swift-earlgrey-bootcamp";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -425,15 +332,6 @@
 			buildConfigurations = (
 				AE3706931EC0B8D200503AF0 /* Debug */,
 				AE3706941EC0B8D200503AF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE3706951EC0B8D200503AF0 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE3706961EC0B8D200503AF0 /* Debug */,
-				AE3706971EC0B8D200503AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
